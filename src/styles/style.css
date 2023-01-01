@@ -1,0 +1,21 @@
+* {
+    font-family: sans-serif;
+}
+
+:root {
+    --bgColor: #EFE3DF;
+    --textColor: #2B2024;
+    --bgLink: #673D3F;
+    --bgLinkHover: #B05459;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: var(--bgColor);
+}
+
+
+.main_title,
+.link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
