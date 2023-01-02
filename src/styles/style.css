@@ -50,7 +50,9 @@ body {
 .main_title,
 .link,
 .title__h2,
-.circle__text {
+.circle__text
+.form__select,
+.form__input {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .main_title{
@@ -76,6 +78,7 @@ body {
     max-width: 300px;
     transition: .2s;
     width: 100%;
+    cursor: pointer;
 }
 .link:hover {
     background-color: var(--bgLinkHover);
@@ -144,6 +147,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 85px;
+    margin-bottom: 200px;
 }
 
 
@@ -171,8 +175,32 @@ body {
 }
 .form__select {
    margin-bottom: 25px;
+   max-width: 340px;
+}
+.form__input{
+    margin-bottom: 40px;
+    width: 90px;
+    max-width: 340px;
 }
 .form__select,
 .form__input {
-  border: 1px solid;
+  border: 1px solid var(--bgLink);
+  background-color: var(--lightColor);
+  padding: 20px 25px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.total__price{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: var(--bgLink);
+}
+.total__info{
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.total__email {
+    color: var(--textColor);
+    display: block;
 }

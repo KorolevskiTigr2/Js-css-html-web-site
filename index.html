@@ -53,18 +53,18 @@
                      <form class="form">
                         <p class="form__text">Выберите Продукт:</p>
                         <select class="form__select" id="">
-                            <option value="" disabled>Выбрать из меню</option>
+                            <option value="" selected disabled>Выбрать из меню</option>
                             <option value="">Гамбургер(50$)</option>
                             <option value="">Курочка(52$)</option>
                             <option value="">Кола(55$)</option>
                         </select>
-                        <p class="form__input">Укажите колличество</p>
-                        <input class="" type="number" value="0" />
-                        <button type="button" class="link">Рассчитать</button>
+                        <p>Укажите колличество &#8595;</p>
+                        <input class="form__input" type="number" value="0" />
+                        <button type="button" class="link" id="btnProduct">Рассчитать</button>
                      </form>
-                    <div>
-                        <p>Итог: 1500$</p>
-                        <p>Оставьте отзыв для братьев циплят!: <a href="mailto:Lospollos@gmail.com">Lospollos@gmail.com</a></p>
+                    <div class="total" style="display:none;">
+                        <p class="total__price">Итог: 1500$</p>
+                        <p class="total__info">Оставьте отзыв для братьев циплят!: <a class="total__email" href="mailto:Lospollos@gmail.com">Lospollos@gmail.com</a></p>
                     </div>
                  </div>
             </div>
