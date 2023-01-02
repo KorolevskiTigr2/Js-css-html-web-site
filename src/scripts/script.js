@@ -4,7 +4,7 @@ document.getElementById('btnProduct').onclick = function() {
 
 function calcCost() {
     let sP = document.getElementById('selectProduct').value;
-    let qP = document.getElementById('selectProduct').value;
+    let qP = document.getElementById('quantityProduct').value;
     let total = sP * qP;
     document.getElementById('priceProduct').innerHTML = total;
     document.getElementById('infoProduct').style.display='block';
