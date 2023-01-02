@@ -36,9 +36,39 @@
             <div class="grid__cover">
                 <img src="/src/images/metamfetamin.jpg" alt="Met?" width="270px"/>
             </div>
-          </section>
+           </section>
+            <div class="cost">
+                <div class="cost__title">
+                    <svg class="circle" width="200" height="200" viewBox="0 0 200 200">
+                        <path id="circleShape" class="circle__shape" d="M 20, 100 a 80, 80 0 1,1 160,0 a 80,80 0 1,1 -160,0" fill="none"></path>
+                        <path class="circle__arrow" d="M 75 100 L 125 100 L 110 85 M 125 100 L 110 115" fill="none" stroke="#2B2024" stroke-width="2.3"></path>
+                        <text class="circle__text">
+                            <textPath href="#circleShape">
+                                Рассчитать стоимость
+                            </textPath>
+                        </text>
+                    </svg>
+                </div>
+                 <div class="cost__calc">
+                     <form class="form">
+                        <p class="form__text">Выберите Продукт:</p>
+                        <select class="form__select" id="">
+                            <option value="" disabled>Выбрать из меню</option>
+                            <option value="">Гамбургер(50$)</option>
+                            <option value="">Курочка(52$)</option>
+                            <option value="">Кола(55$)</option>
+                        </select>
+                        <p class="form__input">Укажите колличество</p>
+                        <input class="" type="number" value="0" />
+                        <button type="button" class="link">Рассчитать</button>
+                     </form>
+                    <div>
+                        <p>Итог: 1500$</p>
+                        <p>Оставьте отзыв для братьев циплят!: <a href="mailto:Lospollos@gmail.com">Lospollos@gmail.com</a></p>
+                    </div>
+                 </div>
+            </div>
           </div>
-    </div>
     <script src="src/scripts/script.js"></script>
 </body>
 </html>
